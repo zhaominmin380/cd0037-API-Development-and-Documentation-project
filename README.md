@@ -9,24 +9,24 @@ The original goal of the project is to build a trivia game that allows users to 
 
 In this project, I was primarily responsible for implementing the backend logic in flaskr/__init__.py, including:
 
-Creating all the RESTful API endpoints for questions, categories, search, and quiz play
+* Creating all the RESTful API endpoints for questions, categories, search, and quiz play
 
-Handling proper error responses and request validation
+* Handling proper error responses and request validation
 
-Integrating the database with SQLAlchemy models
+* Integrating the database with SQLAlchemy models
 
 I also completed and maintained the unit tests in test_flaskr.py, ensuring that all endpoints behave as expected under both normal and edge cases.
 
 ## Core Features of the API
-Get paginated questions
+* Get paginated questions
 
-Search questions using keywords
+* Search questions using keywords
 
-Filter questions by category
+* Filter questions by category
 
-Add and delete questions
+* Add and delete questions
 
-Play quiz game (randomized, with optional category filtering)
+* Play quiz game (randomized, with optional category filtering)
 
 ### Backend
 
